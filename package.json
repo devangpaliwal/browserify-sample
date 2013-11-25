@@ -1,0 +1,21 @@
+{
+  "name": "browserify-sample",
+  "version": "0.0.1",
+  "description": "Samle to get introduced to browserify,backbone and jquery",
+  "main": "index.js",
+  "scripts": {
+    "start": "beefy index.js:bundle.js --live",
+    "bundle": "browserify index.js -o bundle.js"
+  },
+  "repository": "",
+  "author": "",
+  "license": "BSD",
+  "dependencies": {
+    "backbone": "~1.1.0",
+    "jquery": "~1.8.3"
+  },
+  "devDependencies": {
+    "beefy": "~0.5.0",
+    "browserify": "~2.35.4"
+  }
+}
