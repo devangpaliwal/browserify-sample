@@ -1,4 +1,5 @@
 {
+  "author":"Devang Paliwal <dev.paliwal@gmail.com>",
   "name": "browserify-sample",
   "version": "0.0.1",
   "description": "Samle to get introduced to browserify,backbone and jquery",
